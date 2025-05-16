@@ -1,0 +1,181 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 70px 0 20px;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  max-width: 300px;
+}
+
+.footer-logo a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-logo-image {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-logo .description {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.link-column h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.link-column h3:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #FDA865;
+}
+
+.link-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link-column li {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.link-column a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.link-column a:hover {
+  color: #FDA865;
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #FDA865;
+  transform: translateY(-3px);
+}
+
+.social-icon i {
+  font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .footer-logo {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-logo .description {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .link-column h3:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .link-column {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 0 20px;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+}
