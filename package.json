@@ -2,6 +2,14 @@
   "name": "cassia-landing-page",
   "version": "0.1.0",
   "private": true,
+  "cloudflare": {
+    "pages": {
+      "build": {
+        "command": "npm run build",
+        "output_directory": "build"
+      }
+    }
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
