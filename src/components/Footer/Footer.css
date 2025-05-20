@@ -101,6 +101,13 @@
   margin: 0;
 }
 
+.copyright .ai-developed {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+  font-style: italic;
+}
+
 .social-icons {
   display: flex;
   gap: 15px;

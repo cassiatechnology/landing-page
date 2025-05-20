@@ -26,8 +26,8 @@ const About = () => {
                 <p>Disponibilidade</p>
               </div>
               <div className="stat-item">
-                <h3>+500</h3>
-                <p>Empresas atendidas</p>
+                <h3>+70%</h3>
+                <p>Redução de tempo de resposta</p>
               </div>
             </div>
             

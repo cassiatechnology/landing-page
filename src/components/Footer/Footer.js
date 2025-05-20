@@ -43,6 +43,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="copyright">
             <p>&copy; {currentYear} CassIA Technology. Todos os direitos reservados.</p>
+            <p className="ai-developed">Este site foi 100% desenvolvido com Inteligência Artificial</p>
           </div>
           
           <div className="social-icons">
