@@ -195,6 +195,17 @@ textarea {
   resize: vertical;
 }
 
+.message-textarea {
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+}
+
+.message-textarea:focus {
+  border-color: #FDA865 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px rgba(253, 168, 101, 0.2) !important;
+}
+
 .contact-form .btn {
   display: inline-block;
   padding: 12px 30px;

@@ -176,6 +176,7 @@ const Contact = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
+                    className="message-textarea"
                     required
                   ></textarea>
                 </div>
