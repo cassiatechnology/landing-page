@@ -3,7 +3,7 @@ import './WhatsAppButton.css';
 
 const WhatsAppButton = () => {
   const phoneNumber = '556232296801'; // WhatsApp number format without spaces or special characters
-  const whatsappUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=Olá! Gostaria de saber mais sobre os serviços da CassIA Technology.`;
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=Olá! Gostaria de saber mais sobre os serviços da CassIA Technology.`;
 
   return (
     <div className="whatsapp-button">
